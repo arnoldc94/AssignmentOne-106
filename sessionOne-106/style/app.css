@@ -1,0 +1,97 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom right, blue, pink);
+}
+
+h1{
+    
+    
+    color: rgb(26, 25, 25);
+    
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+ .header-main h1{
+     font-size: 75px;
+     font-family: cursive;
+ }
+    
+ main {
+     height: 90vh;
+    
+ }
+ h2{
+    color: rgb(26, 25, 25);
+ }
+
+.capture-form{
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgb(27, 27, 27);
+    padding: 20px;
+    margin-top:40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-items: center;
+    
+}
+
+.capture-form input{
+    flex: 3;
+    margin-right: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.capture-form button{
+    flex: 1;
+}
+
+.row {
+    padding-top: 10px;
+}
+
+
+#pendingList {
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgb(27, 27, 27);
+    padding: 0px;
+    margin-top:40px;
+    margin-bottom: 30px;
+    
+}
+.item{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+
+.item:hover {
+    border: 1px rgb(247, 249, 250);
+    cursor:pointer;
+}
+
+.item label {
+    font-size: 23px;
+    color: rgb(26, 25, 25);
+    flex: 1;
+    cursor:pointer;
+}
+
+.item:hover label {
+    color: rgb(251, 252, 253);
+    font-weight: 500;
+}
+
+.item button {
+    margin-left: 10px;
+}
+
+/* utility */
+.hide {
+    display: none;
+}
